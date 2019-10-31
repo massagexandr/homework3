@@ -44,18 +44,41 @@
     <br>
     <br>
     <div>
-        <input type="text" name="login" value=""/>
+        <input tabindex="1" placeholder="введіть ім'я"type="text" name="name" value=""/>
     </div>
     <br>
     <div>
-        <input type="password" name="userpass" value=""/>
+        <input tabindex="2" placeholder="введіть прізвище" type="text" name="surname" value=""/>
     </div>
     <h2>Яка ваша стать?</h2>
     <div>
-        <p><input checked type="radio" name="male" value="sex"/>Чоловік</p> 
-        <p><input type="radio" name="famale" value="sex">Жінка</p> 
+        <p><input tabindex="3" checked type="radio" name="male" value="sex"/>Чоловік</p> 
+        <p><input tabindex="3" type="radio" name="famale" value="sex">Жінка</p> 
     </div>
-    
+    <br>
+    <div>
+        <textarea tabindex="4" placeholder="Напишіть своє питання"></textarea>
+    </div>
+    <br>
+    <div>
+        <select tabindex="5" name="Місто" autofocus>
+            <option disabled="disabled" selected="selected">Виберіть місто</option>
+            <option  value="Kiev">Київ</option>
+            <option  value="Stockholm">Стокгольм</option>
+            <option  value="Krakow">Краків</option>
+            <option  value="London">Лондон</option>
+            <option  value="Washington">Вашингтон</option>
+        </select>
+    </div>
+    <br>
+    <p>Вибір мови</p>
+    <p><input tabindex="6" type="checkbox" name="ukranian" value="yes">Українська</p>
+    <p><input tabindex="6" type="checkbox" name="Polski" value="yes">Polski</p>
+    <p><input tabindex="6" type="checkbox" name="English" value="yes">English</p>
+    <br>
+    <div>
+        <button tabindex="7" type="submit">Відправити</button>
+    </div>
 
    
 </body>
