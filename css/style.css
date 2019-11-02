@@ -11,4 +11,12 @@ th, tr, td{
 caption{
     font-size: 20px;
     color: blue;
+    text-align: left;
+}
+
+textarea{
+    background-color: black;
+    width: 20%;
+    height: 160px;
+    color: white;
 }
